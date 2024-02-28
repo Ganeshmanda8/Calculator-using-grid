@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using grid </title>
+    <style>
+        .id{
+            background-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+            width: 600px;
+            height: 600px;
+            padding: 10px 10px 10px 10px;
+            display: grid;
+            gap: 10px;
+            border-radius: 20px;
+            grid-template-columns: auto auto auto auto auto;
+        }
+        .ia{
+            background-image: linear-gradient(to right,white,lightcoral,pink,rgb(39, 154, 193));
+            width:auto;
+            height:50px;
+            display: grid;
+            border-radius: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        .ib{
+            background-image: radial-gradient(circle,rgb(10, 237, 10),rgb(5, 154, 5),rgb(5, 58, 5),rgb(228, 215, 229),rgb(255, 200, 0));
+            width:auto;
+            height:50px;
+            display: grid;
+            border-radius: 20px;
+            align-items: center;
+            text-align: center;
+            grid-column: 4/6;
+        }
+        .if{
+            background-color: none;
+            grid-column: 1/6;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: grid;
+            text-align: right;
+            font-size: xx-large;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="id">
+        <div class="if">23+95</div>
+        <div class="ia">AC</div>
+        <div class="ia">C</div>
+        <div class="ia">sin</div>
+        <div class="ia">cos</div>
+        <div class="ia">tan</div>
+        <div class="ia">rad</div>
+        <div class="ia">deg</div>
+        <div class="ia">log</div>
+        <div class="ia">ln</div>
+        <div class="ia">inv</div>
+        <div class="ia">(</div>
+        <div class="ia">)</div>
+        <div class="ia">!</div>
+        <div class="ia">%</div>
+        <div class="ia">/</div>
+        <div class="ia">^</div>
+        <div class="ia">7</div>
+        <div class="ia">8</div>
+        <div class="ia">9</div>
+        <div class="ia">*</div>
+        <div class="ia">root</div>
+        <div class="ia">4</div>
+        <div class="ia">5</div>
+        <div class="ia">6</div>
+        <div class="ia">-</div>
+        <div class="ia">pi</div>
+        <div class="ia">1</div>
+        <div class="ia">2</div>
+        <div class="ia">3</div>
+        <div class="ia">+</div>
+        <div class="ia">00</div>
+        <div class="ia">0</div>
+        <div class="ia">.</div>
+        <div class="ib">=</div>
+    </div>
+</body>
+</html>
